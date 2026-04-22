@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #a148ff, #4287ff);
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    background: rgb(0, 234, 255);
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #007bff;
+}
+
+select, input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+button {
+    background: #feffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0094f6;
+}
+
+#hasil {
+    margin-top: 15px;
+    font-weight: bold;
+}
