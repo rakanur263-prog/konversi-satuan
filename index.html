@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi Satuan Modern</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+  <h1>⚡ Konversi Satuan</h1>
+
+  <!-- PANJANG -->
+  <div class="card">
+    <h2>Panjang</h2>
+    <div class="row">
+      <select id="inputUnitLength"></select>
+      <input type="number" id="inputLength" placeholder="Masukkan nilai">
+      <span>→</span>
+      <select id="toLength"></select>
+    </div>
+    <button onclick="convertLength()">Konversi</button>
+    <p id="resultLength" class="result"></p>
+  </div>
+
+  <!-- BERAT -->
+  <div class="card">
+    <h2>Berat</h2>
+    <div class="row">
+      <select id="inputUnitWeight"></select>
+      <input type="number" id="inputWeight" placeholder="Masukkan nilai">
+      <span>→</span>
+      <select id="toWeight"></select>
+    </div>
+    <button onclick="convertWeight()">Konversi</button>
+    <p id="resultWeight" class="result"></p>
+  </div>
+
+  <!-- SUHU -->
+  <div class="card">
+    <h2>Suhu</h2>
+    <div class="row">
+      <select id="inputUnitTemp"></select>
+      <input type="number" id="inputTemp" placeholder="Masukkan nilai">
+      <span>→</span>
+      <select id="toTemp"></select>
+    </div>
+    <button onclick="convertTemp()">Konversi</button>
+    <p id="resultTemp" class="result"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
